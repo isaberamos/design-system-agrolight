@@ -1,0 +1,4 @@
+{
+  "extends": "@isaberamos-ignite-ui/ts-config/base.json",
+  "include": ["src"] 
+}
