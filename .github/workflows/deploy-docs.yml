@@ -23,7 +23,7 @@ jobs:
 
       - run: npm run build
         env:
-          TURBO_TOKEN: 3Zk6o5Yf6HR3LJDfZJ9kbv2Z
+          TURBO_TOKEN: ${{ secrets.VERCEL_TOKEN }}
           TURBO_TEAM: Isabella Chagas Ramos
 
       - name: Deploy storybook
