@@ -1,5 +1,17 @@
 # @saas-agrolight/docs
 
+## 2.0.0
+
+### Major Changes
+
+- 6d450f3: Adaptações ao projeto
+
+### Patch Changes
+
+- Updated dependencies [6d450f3]
+  - @saas-agrolight/tokens@3.0.0
+  - @saas-agrolight/react@4.0.0
+
 ## 1.0.0
 
 ### Major Changes
