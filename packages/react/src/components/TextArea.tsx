@@ -2,22 +2,22 @@ import { ComponentProps } from 'react'
 import { styled } from '../styles'
 
 export const TextArea = styled('textarea', {
-  backgroundColor: '$gray900',
+  backgroundColor: '$gray100',
   padding: '$3 $4',
   borderRadius: '$sm',
   boxSizing: 'border-box',
-  border: '2px solid $gray900',
+  border: '2px solid $green600',
 
   fontFamily: '$default',
   fontSize: '$sm',
-  color: '$white',
+  color: '$black',
   fontWeight: '$regular',
   resize: 'vertical',
   minHeight: 80,
 
   '&:focus': {
     outline: 0,
-    borderColor: '$ignite300',
+    borderColor: '$green600',
   },
 
   '&:disabled': {
@@ -26,7 +26,7 @@ export const TextArea = styled('textarea', {
   },
 
   '&:placeholder': {
-    color: '$gray400',
+    color: '$green400',
   },
 })
 

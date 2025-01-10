@@ -2,19 +2,21 @@ export const colors = {
   white: '#FFF',
   black: '#000',
 
-  gray100: '#E1E1E6',
-  gray200: '#A9A9B2',
-  gray400: '#7C7C8A',
-  gray500: '#505059',
-  gray600: '#323238',
-  gray700: '#29292E',
-  gray800: '#202024',
-  gray900: '#121214',
+  green100: '#F7F7F8',
+  green200: '#8cb498', /*botão interno*/
+  green300: '#75A182', /*botão interno*/
+  green400: '#029302',
+  green500: '#009300', /*green*/
+  green600: '#2B9943', /*fonte*/
 
-  ignite300: '#00B37E',
-  ignite500: '#00875F',
-  ignite700: '#015F43',
-  ignite900: '#00291D',
+  gray100: '#F7F7F8',
+  gray200: '#787880',
 
-  teste: '#000000'
+  blue100: '#605BFF',
+  blue200: '#5B93FF', /*tipo usuario*/
+  blue300: '#030229', /*fonte dash e table*/
+  blue400: '#030229',
+
+  red100: '#FF8F6B', /*tipo usuario e calendário*/
+  orange100: '#FF7A00', /*ícone dash e table*/
 }

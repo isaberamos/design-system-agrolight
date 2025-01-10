@@ -15,5 +15,3 @@ export const space = {
   64: '16rem',
   80: '20rem',
 }
-
-// 16 - 1rem - 4px (16/4)

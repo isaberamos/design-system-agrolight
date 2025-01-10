@@ -6,7 +6,7 @@ export default {
   title: 'Form/Button',
   component: Button,
   args: {
-    children: 'Send',
+    children: 'Criar conta',
     variant: 'primary',
     size: 'md',
     disabled: false,
@@ -40,19 +40,14 @@ export const Primary: StoryObj<ButtonProps> = {}
 export const Secondary: StoryObj<ButtonProps> = {
     args: {
         variant: 'secondary',
-        children: 'Create new',
-    }
-}
-
-export const Tertiary: StoryObj<ButtonProps> = {
-    args: {
-        variant: 'tertiary',
-        children: 'Cancel',
+        children: 'Adicionar usuário',
     }
 }
 
 export const Small: StoryObj<ButtonProps> = {
     args: {
+        variant: 'tertiary',
+        children: 'Atualizar',
         size: 'sm',
     }
 }

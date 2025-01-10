@@ -3,12 +3,12 @@ import { styled } from '../styles'
 
 export const Button = styled('button', {
   all: 'unset',
-  borderRadius: '$sm',
-  fontSize: '$sm',
+  borderRadius: '$md',
+  fontSize: '$md',
   fontWeight: '$medium',
   fontFamily: '$default',
   textAlign: 'center',
-  minWidth: 120,
+  width: 348,
   boxSizing: 'border-box',
   padding: '0 $4',
   display: 'flex',
@@ -17,7 +17,7 @@ export const Button = styled('button', {
   gap: '$2',
   cursor: 'pointer',
   svg: {
-    width: '$4',
+    width: '$16',
     height: '$4',
   },
   '&:disabled': {
@@ -25,49 +25,54 @@ export const Button = styled('button', {
   },
 
   '&:focus': {
-    boxShadow: '0 0 0 2px $colors$gray100',
+    boxShadow: '0 0 0 2px $colors$gray600',
   },
 
   variants: {
     variant: {
       primary: {
         color: '$white',
-        background: '$ignite500',
+        backgroundColor: '$green500',
         '&:not(:disabled):hover': {
-          background: '$ignite300',
+          background: '$green400',
+          color: '$white',
         },
         '&:disabled': {
-          backgroundColor: '$gray200',
+          background: '$green300',
+          color: '$white',
         },
       },
       secondary: {
-        color: '$ignite300',
-        border: '2px solid $ignite500',
+        color: '$white',
+        backgroundColor: '$green300',
         '&:not(:disabled):hover': {
-          background: '$ignite500',
+          background: '$green200',
           color: '$white',
         },
         '&:disabled': {
-          color: '$gray200',
-          borderColor: '$gray200',
+          color: '$green200',
         },
       },
       tertiary: {
-        color: '$gray100',
+        color: '$white',
+        backgroundColor: '$green300',
         '&:not(:disabled):hover': {
+          background: '$green200',
           color: '$white',
         },
         '&:disabled': {
-          color: '$gray600',
+          color: '$green200',
         },
       },
     },
     size: {
       sm: {
-        height: 38,
+        height: 40,
+        width: 150
       },
       md: {
-        height: 46,
+        height: 50,
+        width: 348
       },
     },
   },

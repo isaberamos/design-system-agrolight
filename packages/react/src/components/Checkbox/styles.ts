@@ -4,7 +4,7 @@ export const CheckboxContainer = styled(Checkbox.Root, {
   all: 'unset',
   width: '$6',
   height: '$6',
-  backgroundColor: '$gray900',
+  backgroundColor: '$green600',
   borderRadius: '$xs',
   lineHeight: 0,
   cursor: 'pointer',
@@ -13,12 +13,12 @@ export const CheckboxContainer = styled(Checkbox.Root, {
   display: 'flex',
   justifyContent: 'center',
   alignItems: 'center',
-  border: '2px solid $gray900',
+  border: '2px solid $green600',
   '&[data-state="checked"]': {
-    backgroundColor: '$ignite300',
+    backgroundColor: '$green500',
   },
   '&:focus, &[data-state="checked"]': {
-    border: '2px solid $ignite300',
+    border: '2px solid $green500',
   },
 })
 const slideIn = keyframes({

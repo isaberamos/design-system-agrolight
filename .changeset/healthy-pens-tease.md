@@ -1,6 +1,7 @@
 ---
+"@saas-agrolight/tokens": major
 "@saas-agrolight/react": major
 "@saas-agrolight/docs": major
 ---
 
-Melhorias no design system
+Adaptações ao projeto
