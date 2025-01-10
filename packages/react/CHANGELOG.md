@@ -1,5 +1,11 @@
 # @saas-agrolight/react
 
+## 4.0.0
+
+### Major Changes
+
+- 6d450f3: Adaptações ao projeto
+
 ## 3.0.0
 
 ### Major Changes
