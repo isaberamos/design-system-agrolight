@@ -6,7 +6,7 @@ export const colors = {
   green200: '#8cb498', /*botão interno*/
   green300: '#75A182', /*botão interno*/
   green400: '#029302',
-  green500: '#009300', /*green*/
+  green500: '#028602', /*green*/
   green600: '#2B9943', /*fonte*/
 
   gray100: '#F7F7F8',
