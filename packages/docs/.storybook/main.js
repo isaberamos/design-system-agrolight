@@ -22,7 +22,7 @@ module.exports = {
 
   viteFinal: (config, { configType }) => {
     if (configType === 'PRODUCTION') {
-      config.base = '/design-system-agrolight/'
+      config.base = './'
     }
 
     return config
