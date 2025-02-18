@@ -7,8 +7,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "storybook dev -p 6006",
-    "deploy-storybook": "storybook-to-ghpages",
-    "build-storybook": "build-storybook -s public"
+    "deploy-storybook": "storybook-to-ghpages --storybook-build-dir=storybook-static",
+    "build-storybook": "build-storybook -s public --base /design-system-agrolight/"
   },
   "dependencies": {
     "@mdx-js/rollup": "^3.1.0",
