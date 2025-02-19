@@ -8,16 +8,15 @@ module.exports = {
     getAbsolutePath("@storybook/addon-interactions"),
     getAbsolutePath("@storybook/addon-a11y"),
     getAbsolutePath("@storybook/addon-mdx-gfm"),
+    getAbsolutePath("@chromatic-com/storybook"),
+    getAbsolutePath("@storybook/addon-mdx-gfm"),
+    getAbsolutePath("@storybook/addon-mdx-gfm"),
     "@chromatic-com/storybook"
   ],
 
   "framework": {
     name: getAbsolutePath("@storybook/react-vite"),
     options: {}
-  },
-
-  "features": {
-    "storyStoreV7": true
   },
 
   viteFinal: (config, { configType }) => {
