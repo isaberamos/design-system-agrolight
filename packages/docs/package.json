@@ -1,5 +1,6 @@
 {
   "name": "@saas-agrolight/docs",
+  "homepage": "https://isaberamos.github.io/design-system-agrolight/",
   "private": true,
   "version": "1.0.0",
   "type": "module",
