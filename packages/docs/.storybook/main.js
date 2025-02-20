@@ -1,4 +1,5 @@
 import { dirname, join } from "path";
+
 module.exports = {
   "stories": ["../src/pages/**/*.mdx", "../src/stories/**/*.stories.tsx"],
 
@@ -9,8 +10,6 @@ module.exports = {
     getAbsolutePath("@storybook/addon-a11y"),
     getAbsolutePath("@storybook/addon-mdx-gfm"),
     getAbsolutePath("@chromatic-com/storybook"),
-    getAbsolutePath("@storybook/addon-mdx-gfm"),
-    getAbsolutePath("@storybook/addon-mdx-gfm"),
     "@chromatic-com/storybook"
   ],
 
@@ -19,12 +18,13 @@ module.exports = {
     options: {}
   },
 
-  viteFinal: (config, { configType }) => {
+  // Configuração para corrigir caminhos no GitHub Pages
+  viteFinal: async (config, { configType }) => {
     if (configType === 'PRODUCTION') {
-      config.base = '/design-system-agrolight/'
+      config.base = '/design-system-agrolight/'; // Caminho base para GitHub Pages
     }
 
-    return config
+    return config;
   },
 
   docs: {},
@@ -32,7 +32,7 @@ module.exports = {
   typescript: {
     reactDocgen: "react-docgen-typescript"
   }
-}
+};
 
 function getAbsolutePath(value) {
   return dirname(require.resolve(join(value, "package.json")));
