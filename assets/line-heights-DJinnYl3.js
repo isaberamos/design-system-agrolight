@@ -1,0 +1,3 @@
+import{j as t}from"./index-CopO2me4.js";import{useMDXComponents as i}from"./index-D0pgMumq.js";import{M as r}from"./index-voCzld7Z.js";import{T as s}from"./TokensGrid-DDFRDSyF.js";import{l as m}from"./index-jclXEmzt.js";import"./_commonjsHelpers-CqkleIqs.js";import"./index-C0qn59OO.js";import"./index-BZISi7jw.js";import"./iframe-CLSSOgVF.js";import"./index-Cu4lwwaE.js";import"./index-CXQShRbs.js";import"./index-DrFu-skq.js";function e(n){const o={h1:"h1",...i(),...n.components};return t.jsxs(t.Fragment,{children:[t.jsx(r,{title:"Tokens/Line Heights"}),`
+`,t.jsx(o.h1,{id:"line-heights",children:"Line Heights"}),`
+`,t.jsx(s,{tokens:m})]})}function k(n={}){const{wrapper:o}={...i(),...n.components};return o?t.jsx(o,{...n,children:t.jsx(e,{...n})}):e(n)}export{k as default};

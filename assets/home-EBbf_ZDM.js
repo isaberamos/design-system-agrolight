@@ -1,0 +1,3 @@
+import{j as t}from"./index-CopO2me4.js";import{useMDXComponents as r}from"./index-D0pgMumq.js";import{M as m}from"./index-voCzld7Z.js";import"./_commonjsHelpers-CqkleIqs.js";import"./index-C0qn59OO.js";import"./index-BZISi7jw.js";import"./iframe-CLSSOgVF.js";import"./index-Cu4lwwaE.js";import"./index-CXQShRbs.js";import"./index-DrFu-skq.js";function e(o){const n={h1:"h1",p:"p",...r(),...o.components};return t.jsxs(t.Fragment,{children:[t.jsx(m,{title:"Home"}),`
+`,t.jsx(n.h1,{id:"home",children:"Home"}),`
+`,t.jsx(n.p,{children:"Design System do SaaS AgroLight"})]})}function f(o={}){const{wrapper:n}={...r(),...o.components};return n?t.jsx(n,{...o,children:t.jsx(e,{...o})}):e(o)}export{f as default};
